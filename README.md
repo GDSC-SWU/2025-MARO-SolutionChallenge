@@ -186,7 +186,7 @@ Moreover, the AI is **ethically designed not to perform direct medical diagnosis
 2. Enter your Google API Key in the `.env` file  
 3. Sync Gradle and build the app  
 
-🔗 APK 다운로드: [링크 삽입 예정]
+🔗 APK Download: [https://drive.google.com/file/d/1DHiaux87hg5O0WKe8VWlIb110gb_417y/view?usp=sharing]
 
 
 
