@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">maro</string>
+    <string name="login_title">こんにちは、マロです。\n一緒にケアしましょう！</string>
+    <string name="login_google_button">Googleでサインアップ</string>
+
+    <string name="onboarding_header">情報</string>
+    <string name="onboarding_title">お子様の情報を入力しましょう！</string>
+    <string name="onboarding_description">🐣 入力内容から予防接種スケジュールを作成します。\n個人情報は端末内にのみ保存され、アプリ削除時に消去されます。</string>
+    <string name="onboarding_child_info_title">お子さまの情報</string>
+    <string name="label_name">名前</string>
+    <string name="label_birth">生年月日</string>
+    <string name="label_gender">性別</string>
+    <string name="gender_boy">男の子</string>
+    <string name="gender_girl">女の子</string>
+    <string name="add_sibling">兄弟姉妹を追加</string>
+    <string name="continue_">続ける</string>
+    <string name="hint_child_name">お名前を入力してください</string>
+
+
+    <string name="main_track_progress">お子様の\n接種状況を確認しましょう！</string>
+    <string name="main_child_info">お子様の情報</string>
+    <string name="child_gender_boy">男</string>
+    <string name="child_gender_girl">女</string>
+    <string name="child_age_m">%1$dか月</string>
+    <string name="child_age_y">%1$d歳</string>
+    <string name="main_upcoming_vaccines">今後の予防接種 (%1$d)</string>
+    <string name="no_results">結果がありません</string>
+    <string name="see_all_vaccines">すべての予防接種を見る</string>
+
+    <string name="banner_upcoming_vaccines">%1$d件の接種予定があります！</string>
+    <string name="child_birth_date_format">%1$s</string>
+    <string name="vaccination_timeline">予防接種タイムライン</string>
+
+    <string name="tab_all">すべて</string>
+    <string name="tab_not_yet">未定</string>
+    <string name="tab_coming_up">予定</string>
+    <string name="tab_completed">完了</string>
+
+    <string name="sort_oldest">•古い順</string>
+    <string name="sort_latest">•新しい順</string>
+
+    <string name="label_date_range">%1$s ～ %2$s</string>
+    <string name="label_not_yet">未定！</string>
+    <string name="label_coming_up">予定</string>
+    <string name="label_completed">完了</string>
+    <string name="label_uploaded">アップロード済み</string>
+    <string name="add_to_calendar">カレンダーに追加</string>
+    <string name="upload_certificate">証明書アップロード</string>
+    <string name="certificate_uploaded">アップロード済み</string>
+
+
+    <string name="question_how_do_you_feel">接種後の気分はいかがでしたか？</string>
+    <string name="emoji_good">良い 😊</string>
+    <string name="emoji_okay">普通 🙂</string>
+    <string name="emoji_bad">悪い 😔</string>
+    <string name="hint_side_effects">副作用があった場合はメモを残してください。</string>
+    <string name="detail_edit_text">副作用について記入してください…</string>
+    <string name="btn_save">保存する</string>
+    <string name="upload_failed">接種証明書のアップロードに失敗しました。もう一度お試しください。</string>
+    <string name="upload_success">接種証明書のアップロードが完了しました！</string>
+
+
+    <string name="tab_list">リスト</string>
+    <string name="tab_location">位置</string>
+    <string name="call_script">通話文</string>
+
+
+    <string name="congrats_title">おめでとうございます！</string>
+    <string name="congrats_message">会員登録が完了しました。</string>
+    <string name="btn_go_home">ホームへ</string>
+    <string name="gallery_title">ギャラリー</string>
+    <string name="image_description_hint">画像の説明を入力してください。</string>
+
+
+    <string name="chatbot_title">チャットくん</string>
+    <string name="chatbot_welcome_title">マロ チャットボットへようこそ！</string>
+    <string name="chatbot_welcome_description">予防接種に関する疑問にお答えします.</string>
+    <string name="chatbot_tip_1">• 予防接種に関する質問\n• 副作用の写真送信\n• 医療書類の翻訳</string>
+    <string name="gallery">Gallery</string>
+    <string name="chat_edit_text">写真とテキストを入力してください</string>
+
+    <string name="nearby_centers">近くの接種センター</string>
+    <string name="title_address">住所</string>
+    <string name="title_call">電話</string>
+    <string name="title_hours">営業時間</string>
+    <string name="title_available_vaccines">接種可能なワクチン</string>
+    <string name="btn_google_map">Google マップで開く</string>
+    <string name="label_no_info">情報なし</string>
+    <string name="vaccinations_available">接種\n可能</string>
+    <string name="mon_to_fri">月〜金</string>
+    <string name="sat_to_sun">土〜日</string>
+    <string name="mon">月</string>
+    <string name="tue">火</string>
+    <string name="wed">水</string>
+    <string name="thu">木</string>
+    <string name="fri">金</string>
+    <string name="sat">土</string>
+    <string name="sun">日</string>
+    <string name="unknown">不明</string>
+
+    <string name="call_title">📞 電話でも安心して\n話せるようサポート！</string>
+    <string name="call_subtitle">言葉の不安なし、通話内容を用意します</string>
+    <string name="call_example_1_title">📅 EX) 予防接種の予約</string>
+    <string name="call_example_1_sub">子どもの接種予約をしたいです</string>
+    <string name="call_example_2_title">💉EX) 無料か確認</string>
+    <string name="call_example_2_sub">無料ですか？支払いが必要ですか？</string>
+    <string name="call_example_3_title">🌡️ EX) 副反応について質問</string>
+    <string name="call_example_3_sub">熱が出たけど大丈夫ですか？</string>
+    <string name="call_create_script">+\n通話スクリプト作成</string>
+    <string name="call_script_title">通話スクリプト</string>
+    <string name="call_script_question">病院に何を聞きますか？</string>
+    <string name="call_script_label_question">質問</string>
+    <string name="call_script_suggestion_1">提案 1</string>
+    <string name="call_script_suggestion_2">提案 2</string>
+    <string name="call_script_suggestion_3">提案 3</string>
+    <string name="call_script_warning_title">ちょっと待って！</string>
+    <string name="call_script_warning_text">音声を確認しましたか？\n保存はされません。</string>
+    <string name="call_script_leave">終了</string>
+    <string name="call_script_back">戻る</string>
+    <string name="call_get_script">スクリプト取得</string>
+    <string name="call_input_hint">質問を入力してください</string>
+    <string name="call_script_language">日本語</string>
+    <string name="call_script_korean">韓国語</string>
+
+
+
+    <string name="vaccine_hepb_1">B型肝炎 (1回目)</string>
+    <string name="vaccine_hepb_2">B型肝炎 (2回目)</string>
+    <string name="vaccine_hepb_3">B型肝炎 (3回目)</string>
+    <string name="vaccine_bcg_1">BCG（結核）</string>
+    <string name="vaccine_dtap_1">ジフテリア・破傷風・百日咳 (1回目)</string>
+    <string name="vaccine_dtap_2">ジフテリア・破傷風・百日咳 (2回目)</string>
+    <string name="vaccine_dtap_3">ジフテリア・破傷風・百日咳 (3回目)</string>
+    <string name="vaccine_dtap_4">ジフテリア・破傷風・百日咳 (4回目)</string>
+    <string name="vaccine_dtap_5">ジフテリア・破傷風・百日咳 (5回目)</string>
+    <string name="vaccine_ipv_1">ポリオ (1回目)</string>
+    <string name="vaccine_ipv_2">ポリオ (2回目)</string>
+    <string name="vaccine_ipv_3">ポリオ (3回目)</string>
+    <string name="vaccine_ipv_4">ポリオ (4回目)</string>
+    <string name="vaccine_hib_1">Hib (1回目)</string>
+    <string name="vaccine_hib_2">Hib (2回目)</string>
+    <string name="vaccine_hib_3">Hib (3回目)</string>
+    <string name="vaccine_hib_4">Hib (4回目)</string>
+    <string name="vaccine_pcv_1">肺炎球菌 (1回目)</string>
+    <string name="vaccine_pcv_2">肺炎球菌 (2回目)</string>
+    <string name="vaccine_pcv_3">肺炎球菌 (3回目)</string>
+    <string name="vaccine_pcv_4">肺炎球菌 (4回目)</string>
+    <string name="vaccine_mmr_1">MMR (1回目)</string>
+    <string name="vaccine_mmr_2">MMR (2回目)</string>
+    <string name="vaccine_var_1">水痘</string>
+    <string name="vaccine_hepa_1">A型肝炎 (1回目)</string>
+    <string name="vaccine_hepa_2">A型肝炎 (2回目)</string>
+    <string name="vaccine_ijev_1">日本脳炎 (1回目)</string>
+    <string name="vaccine_ijev_2">日本脳炎 (2回目)</string>
+    <string name="vaccine_ijev_3">日本脳炎 (3回目)</string>
+    <string name="vaccine_ijev_4">日本脳炎 (4回目)</string>
+    <string name="vaccine_ijev_5">日本脳炎 (5回目)</string>
+    <string name="vaccine_ljev_1">生ワクチン日本脳炎 (1回目)</string>
+    <string name="vaccine_ljev_2">生ワクチン日本脳炎 (2回目)</string>
+    <string name="vaccine_hpv_1">HPV（子宮頸がん）</string>
+    <string name="vaccine_iiv">インフルエンザ（毎年）</string>
+
+</resources>

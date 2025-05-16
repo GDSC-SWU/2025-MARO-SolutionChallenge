@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Neutral98"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".view.DetailListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/white">
+
+        <!-- backBtn, name -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingHorizontal="16dp">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="Back"
+                android:src="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:id="@+id/tv_child_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_medium"
+                android:text="Lee Yeso"
+                android:textAlignment="center"
+                android:textColor="@color/Neutral0"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/Neutral80" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp">
+
+        <!-- card view -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardVaccineInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:cardCornerRadius="8dp"
+            app:rippleColor="@android:color/transparent"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/Main01"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_vaccine" />
+
+                <TextView
+                    android:id="@+id/tvVaccineInfo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/banner_upcoming_vaccines"
+                    android:textAlignment="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardChildInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@null"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="?attr/selectableItemBackground"
+            app:rippleColor="@android:color/transparent"
+            app:strokeWidth="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_card_child_info"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- name -->
+                    <TextView
+                        android:id="@+id/tvChildName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="12dp"
+                        android:background="@drawable/bg_rounded_white"
+                        android:ellipsize="end"
+                        android:fontFamily="@font/roboto_medium"
+                        android:maxEms="10"
+                        android:paddingHorizontal="8dp"
+                        android:paddingVertical="6dp"
+                        android:text="이름이름이름이름이름"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                    <!--birth-->
+                    <TextView
+                        android:id="@+id/tvChildBirth"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="2025 - 01 - 24"
+                        android:textColor="@color/white"
+                        android:textSize="22sp" />
+
+                    <!-- gender/age -->
+                    <TextView
+                        android:id="@+id/tvChildInfo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="Girl,6 months old"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <!-- right asset -->
+                <ImageView
+                    android:id="@+id/tvAsset"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="20dp"
+                    android:src="@drawable/ic_boy" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_event_fill"
+                app:tint="@color/Neutral0" />
+
+            <TextView
+                android:id="@+id/tvVaccineTimeLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/vaccination_timeline"
+                android:textColor="@color/Neutral0"
+                android:textSize="22sp" />
+        </LinearLayout>
+
+        <!-- filter -->
+        <LinearLayout
+            android:id="@+id/layout_filter_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingVertical="12dp">
+
+            <TextView
+                android:id="@+id/btn_filter_all"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/tab_all"
+                android:textAlignment="center"
+                android:textColor="@color/Neutral0"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/btn_filter_notyet"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/tab_not_yet"
+                android:textAlignment="center"
+                android:textColor="@color/Neutral0"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/btn_filter_comingUp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/tab_coming_up"
+                android:textAlignment="center"
+                android:textColor="@color/Neutral0"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/btn_filter_completed"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/tab_completed"
+                android:textAlignment="center"
+                android:textColor="@color/Neutral0"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+
+        <!-- indicator -->
+        <View
+            android:id="@+id/filter_indicator"
+            android:layout_width="90dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="-3dp"
+            android:background="@color/Main01" />
+        <!-- line -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/Neutral80" />
+
+        <!--alignment-->
+        <LinearLayout
+            android:id="@+id/listAlignment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvOldest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/sort_oldest"
+                android:textColor="@color/Neutral70"
+                android:textSize="11sp" />
+
+            <TextView
+                android:id="@+id/tvLatest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/sort_latest"
+                android:textColor="@color/Neutral0"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <!-- empty -->
+        <LinearLayout
+            android:id="@+id/emptyPlaceholder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/sort_latest"
+                android:src="@drawable/ic_empty_vaccine" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="No results available"
+                android:textColor="@color/Neutral0"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+
+        <!-- list -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_vaccine_detail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:paddingBottom="12dp" />
+    </LinearLayout>
+</LinearLayout>

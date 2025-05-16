@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start"
+    android:orientation="horizontal"
+    android:paddingHorizontal="16dp"
+    android:paddingTop="24dp">
+
+    <ImageView
+        android:id="@+id/imgAiProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:clipToOutline="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_ai" />
+
+    <TextView
+        android:id="@+id/txtAiMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_ai_talk"
+        android:fontFamily="@font/roboto_regular"
+        android:gravity="start"
+        android:maxWidth="281dp"
+        android:minWidth="26dp"
+        android:padding="13sp"
+        android:text="Hello, this is an AI response message!"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</LinearLayout>

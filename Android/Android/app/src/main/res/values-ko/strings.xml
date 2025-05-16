@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">maro</string>
+
+
+    <string name="login_title">안녕하세요, 저는 마로예요.\n함께 자녀 건강을 챙겨봐요!</string>
+    <string name="login_google_button">Google로 시작하기</string>
+
+
+    <string name="onboarding_header">기본 정보</string>
+    <string name="onboarding_title">🌼자녀 정보를 입력하고\nMARO를 시작해볼까요?</string>
+    <string name="onboarding_description">🐣 입력한 정보를 바탕으로 맞춤 예방접종 일정을 만들어드려요.\n개인정보는 기기 내에만 저장되며, 앱 삭제 시 함께 삭제됩니다.</string>
+    <string name="onboarding_child_info_title">자녀 정보 입력</string>
+    <string name="label_name">이름</string>
+    <string name="label_birth">생년월일</string>
+    <string name="label_gender">성별</string>
+    <string name="gender_boy">남자아이</string>
+    <string name="gender_girl">여자아이</string>
+    <string name="add_sibling">자녀 추가하기</string>
+    <string name="continue_">계속하기</string>
+    <string name="hint_child_name">이름을 입력해주세요</string>
+
+
+    <string name="main_track_progress">우리 아이의\n예방접종 상황을 확인해보세요!</string>
+    <string name="main_child_info">자녀 정보</string>
+    <string name="child_gender_boy">남</string>
+    <string name="child_gender_girl">여</string>
+    <string name="child_age_m">%1$d개월</string>
+    <string name="child_age_y">%1$d세</string>
+    <string name="main_upcoming_vaccines">필요한 예방 접종 목록 (%1$d)</string>
+    <string name="no_results">필요한 예방 접종이 없어요.</string>
+    <string name="see_all_vaccines">접종 전체 보기</string>
+
+
+    <string name="banner_upcoming_vaccines">필요한 예방 접종이 %1$d개 있어요!</string>
+    <string name="child_birth_date_format">%1$s</string>
+    <string name="vaccination_timeline">접종 타임라인</string>
+
+
+    <string name="tab_all">전체</string>
+    <string name="tab_not_yet">접종 예정</string>
+    <string name="tab_coming_up">접종 필요</string>
+    <string name="tab_completed">접종 완료</string>
+
+
+    <string name="sort_oldest">•오래된 순</string>
+    <string name="sort_latest">•최신 순</string>
+
+
+    <string name="label_date_range">%1$s ~ %2$s</string>
+    <string name="label_not_yet">접종 예정</string>
+    <string name="label_coming_up">접종 필요</string>
+    <string name="label_completed">접종 완료</string>
+    <string name="label_uploaded">접종 완료</string>
+    <string name="add_to_calendar">캘린더에 추가</string>
+    <string name="upload_certificate">증명서 업로드</string>
+    <string name="certificate_uploaded">업로드 완료</string>
+
+
+    <string name="question_how_do_you_feel">접종 후 상태는 어땠나요?</string>
+    <string name="emoji_good">좋음 😊</string>
+    <string name="emoji_okay">괜찮음 🙂</string>
+    <string name="emoji_bad">나쁨 😔</string>
+    <string name="hint_side_effects">부작용이 있었다면 기록해주세요.</string>
+    <string name="detail_edit_text">메모를 입력해주세요…</string>
+    <string name="btn_save">저장</string>
+    <string name="upload_failed">접종 증명서 업로드 실패! 다시 시도해주세요.</string>
+    <string name="upload_success">접종 증명서 업로드가 완료되었습니다!</string>
+
+
+    <string name="tab_list">접종 목록</string>
+    <string name="tab_location">접종 센터</string>
+
+
+    <string name="congrats_title">환영합니다!</string>
+    <string name="congrats_message">회원가입이 완료되었습니다.</string>
+    <string name="btn_go_home">홈으로 이동</string>
+
+
+
+    <string name="chatbot_title">챗봇</string>
+    <string name="chatbot_welcome_title">마로 챗봇에 오신 것을 환영합니다!</string>
+    <string name="chatbot_welcome_description">백신 관련 궁금증을 도와드릴게요.</string>
+    <string name="chatbot_tip_1">• 백신에 대해 무엇이든 질문하세요.\n• 부작용 사진을 보내세요.\n• 의학 문서를 번역해드려요.</string>
+    <string name="gallery">Gallery</string>
+    <string name="chat_edit_text">메시지를 입력하거나 사진을 업로드하세요</string>
+    <string name="image_description_hint">이미지에 대한 설명을 입력해주세요!</string>
+
+
+
+    <string name="gallery_title">갤러리</string>
+    <string name="nearby_centers">근처 예방접종 센터 목록</string>
+    <string name="title_address">주소</string>
+    <string name="title_call">전화</string>
+    <string name="title_hours">운영 시간</string>
+    <string name="title_available_vaccines">접종 가능 백신</string>
+    <string name="btn_google_map">Google 지도에서 보기</string>
+    <string name="label_no_info">해당 정보가 없습니다.</string>
+    <string name="vaccinations_available">접종 가능</string>
+    <string name="mon_to_fri">월~금</string>
+    <string name="sat_to_sun">토~일</string>
+    <string name="mon">월</string>
+    <string name="tue">화</string>
+    <string name="wed">수</string>
+    <string name="thu">목</string>
+    <string name="fri">금</string>
+    <string name="sat">토</string>
+    <string name="sun">일</string>
+    <string name="unknown">알 수 없음</string>
+
+    <!-- Call Script -->
+    <string name="call_script">전화 대본</string>
+    <string name="call_title">📞 전화 걱정 없이\n자신 있게 말해보세요!</string>
+    <string name="call_subtitle">언어 스트레스 없이, 대본을 준비해드려요</string>
+    <string name="call_example_1_title">📅 EX) 예방접종 예약</string>
+    <string name="call_example_1_sub">아기 예방접종을 예약하고 싶어요</string>
+    <string name="call_example_2_title">💉EX) 무료 여부 확인</string>
+    <string name="call_example_2_sub">무료인지 유료인지 확인하고 싶어요</string>
+    <string name="call_example_3_title">🌡️ EX) 부작용 문의</string>
+    <string name="call_example_3_sub">접종 후 열이 나도 괜찮나요?</string>
+    <string name="call_create_script">+\n상황별 대본 만들기</string>
+    <string name="call_script_title">전화 대본</string>
+    <string name="call_script_question">병원에 어떤 걸 물어볼까요?</string>
+    <string name="call_script_label_question">질문</string>
+    <string name="call_script_suggestion_1">추천 답변 1</string>
+    <string name="call_script_suggestion_2">추천 답변 2</string>
+    <string name="call_script_suggestion_3">추천 답변 3</string>
+    <string name="call_script_warning_title">잠깐만요!</string>
+    <string name="call_script_warning_text">녹음 내용 확인하셨나요?\n저장은 되지 않아요.</string>
+    <string name="call_script_leave">나가기</string>
+    <string name="call_script_back">대본으로 돌아가기</string>
+    <string name="call_get_script">대본 받기</string>
+    <string name="call_input_hint">질문을 입력해주세요</string>
+    <string name="call_script_language">한국어</string>
+    <string name="call_script_korean">한국어</string>
+
+
+
+
+    <string name="vaccine_hepb_1">B형간염 (1차)</string>
+    <string name="vaccine_hepb_2">B형간염 (2차)</string>
+    <string name="vaccine_hepb_3">B형간염 (3차)</string>
+    <string name="vaccine_bcg_1">BCG (결핵)</string>
+    <string name="vaccine_dtap_1">디프테리아/파상풍/백일해 (1차)</string>
+    <string name="vaccine_dtap_2">디프테리아/파상풍/백일해 (2차)</string>
+    <string name="vaccine_dtap_3">디프테리아/파상풍/백일해 (3차)</string>
+    <string name="vaccine_dtap_4">디프테리아/파상풍/백일해 (4차)</string>
+    <string name="vaccine_dtap_5">디프테리아/파상풍/백일해 (5차)</string>
+    <string name="vaccine_ipv_1">소아마비 (1차)</string>
+    <string name="vaccine_ipv_2">소아마비 (2차)</string>
+    <string name="vaccine_ipv_3">소아마비 (3차)</string>
+    <string name="vaccine_ipv_4">소아마비 (4차)</string>
+    <string name="vaccine_hib_1">뇌수막염 (1차)</string>
+    <string name="vaccine_hib_2">뇌수막염 (2차)</string>
+    <string name="vaccine_hib_3">뇌수막염 (3차)</string>
+    <string name="vaccine_hib_4">뇌수막염 (4차)</string>
+    <string name="vaccine_pcv_1">폐렴구균 (1차)</string>
+    <string name="vaccine_pcv_2">폐렴구균 (2차)</string>
+    <string name="vaccine_pcv_3">폐렴구균 (3차)</string>
+    <string name="vaccine_pcv_4">폐렴구균 (4차)</string>
+    <string name="vaccine_mmr_1">MMR (1차)</string>
+    <string name="vaccine_mmr_2">MMR (2차)</string>
+    <string name="vaccine_var_1">수두</string>
+    <string name="vaccine_hepa_1">A형간염 (1차)</string>
+    <string name="vaccine_hepa_2">A형간염 (2차)</string>
+    <string name="vaccine_ijev_1">일본뇌염 (1차)</string>
+    <string name="vaccine_ijev_2">일본뇌염 (2차)</string>
+    <string name="vaccine_ijev_3">일본뇌염 (3차)</string>
+    <string name="vaccine_ijev_4">일본뇌염 (4차)</string>
+    <string name="vaccine_ijev_5">일본뇌염 (5차)</string>
+    <string name="vaccine_ljev_1">일본뇌염 생백신 (1차)</string>
+    <string name="vaccine_ljev_2">일본뇌염 생백신 (2차)</string>
+    <string name="vaccine_hpv_1">HPV (자궁경부암)</string>
+    <string name="vaccine_iiv">인플루엔자 (매년)</string>
+</resources>

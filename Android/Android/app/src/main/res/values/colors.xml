@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Neutral -->
+    <color name="Neutral0">#FF000000</color>
+    <color name="Neutral10">#FF1C1B1C</color>
+    <color name="Neutral20">#FF313030</color>
+    <color name="Neutral25">#FF3C3B3B</color>
+    <color name="Neutral30">#FF484646</color>
+    <color name="Neutral35">#FF545252</color>
+    <color name="Neutral40">#FF605E5E</color>
+    <color name="Neutral50">#FF797676</color>
+    <color name="Neutral60">#FF939090</color>
+    <color name="Neutral70">#FFADAAAA</color>
+    <color name="Neutral80">#FFC9C6C5</color>
+    <color name="Neutral90">#FFE5E1E1</color>
+    <color name="Neutral95">#FFF4F0EF</color>
+    <color name="Neutral98">#FFFDF8F8</color>
+
+    <!-- Transparency -->
+    <color name="Transparency20">#33000000</color> <!-- 20% 불투명 → 0x33 = 51 -->
+    <color name="Transparency50">#80000000</color> <!-- 50% 불투명 → 0x80 = 128 -->
+    <color name="Transparency80">#CC000000</color> <!-- 80% 불투명 → 0xCC = 204 -->
+
+    <!-- Main -->
+    <color name="Main01">#FFFB6767</color>
+    <color name="Main02">#FFD72638</color>
+    <color name="Main03">#FFFFE0E0</color>
+    <color name="MainGradStart">#FFFB6767</color>
+    <color name="MainGradEnd">#FFFF8D8D</color>
+
+    <!--state-->
+    <color name="comingUp">#FFE66B</color>
+    <color name="notYet">#6B88FF</color>
+    <color name="completed">#7BFAB8</color>
+
+</resources>

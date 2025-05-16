@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">maro</string>
+    <string name="login_title">你好，我是Maro.\n让我们一起照顾好！</string>
+    <string name="login_google_button">用Google注册</string>
+
+    <string name="onboarding_header">信息</string>
+    <string name="onboarding_title">让我们开始填写孩子的信息！</string>
+    <string name="onboarding_description">🐣 我们将根据您填写的信息生成个性化的疫苗接种计划。\n个人信息仅保存在设备上，卸载应用时将一并删除。</string>
+    <string name="onboarding_child_info_title">孩子的信息</string>
+    <string name="label_name">姓名</string>
+    <string name="label_birth">出生日期</string>
+    <string name="label_gender">性别</string>
+    <string name="gender_boy">男孩</string>
+    <string name="gender_girl">女孩</string>
+    <string name="add_sibling">添加兄弟姐妹</string>
+    <string name="continue_">继续</string>
+    <string name="hint_child_name">请输入姓名</string>
+
+
+    <string name="main_track_progress">跟踪孩子的\n疫苗接种进度！</string>
+    <string name="main_child_info">孩子信息</string>
+    <string name="child_gender_boy">男</string>
+    <string name="child_gender_girl">女</string>
+    <string name="child_age_m">%1$d个月</string>
+    <string name="child_age_y">%1$d岁</string>
+    <string name="main_upcoming_vaccines">即将接种 (%1$d)</string>
+    <string name="no_results">暂无结果</string>
+    <string name="see_all_vaccines">查看所有疫苗接种</string>
+
+    <string name="banner_upcoming_vaccines">有 %1$d 项接种计划！</string>
+    <string name="child_birth_date_format">%1$s</string>
+    <string name="vaccination_timeline">接种时间线</string>
+
+    <string name="tab_all">全部</string>
+    <string name="tab_not_yet">未开始</string>
+    <string name="tab_coming_up">即将到来</string>
+    <string name="tab_completed">已完成</string>
+
+    <string name="sort_oldest">•最早</string>
+    <string name="sort_latest">•最新</string>
+
+    <string name="label_date_range">%1$s ~ %2$s</string>
+    <string name="label_not_yet">未开始！</string>
+    <string name="label_coming_up">即将接种</string>
+    <string name="label_completed">已完成</string>
+    <string name="label_uploaded">已上传</string>
+    <string name="add_to_calendar">添加到日历</string>
+    <string name="upload_certificate">上传接种证明</string>
+    <string name="certificate_uploaded">接种证明已上传</string>
+
+    <string name="question_how_do_you_feel">接种后感觉如何？</string>
+    <string name="emoji_good">很好 😊</string>
+    <string name="emoji_okay">还行 🙂</string>
+    <string name="emoji_bad">不舒服 😔</string>
+    <string name="hint_side_effects">如有副作用，请留下备注。</string>
+    <string name="detail_edit_text">请填写副作用信息…</string>
+    <string name="btn_save">保存</string>
+    <string name="upload_failed">疫苗接种证明上传失败，请重试。</string>
+    <string name="upload_success">疫苗接种证明上传成功！</string>
+
+    <string name="tab_list">列表</string>
+    <string name="tab_location">位置</string>
+
+    <!-- values-zh/strings.xml -->
+    <string name="congrats_title">恭喜！</string>
+    <string name="congrats_message">您已成功注册会员。</string>
+    <string name="btn_go_home">返回首页</string>
+    <string name="gallery_title">图库</string>
+    <string name="image_description_hint">请输入图片的说明。</string>
+
+
+
+    <string name="chatbot_title">聊天机器人</string>
+    <string name="chatbot_welcome_title">欢迎使用Maro聊天机器人！</string>
+    <string name="chatbot_welcome_description">我可以帮助解答有关疫苗接种的问题.</string>
+    <string name="chatbot_tip_1">• 提问疫苗相关内容\n• 上传副作用图片\n• 翻译医疗文件</string>
+    <string name="gallery">Gallery</string>
+    <string name="chat_edit_text">输入消息或上传图片</string>
+
+    <string name="nearby_centers">附近接种中心</string>
+    <string name="title_address">地址</string>
+    <string name="title_call">电话</string>
+    <string name="title_hours">营业时间</string>
+    <string name="title_available_vaccines">可接种疫苗</string>
+    <string name="btn_google_map">在 Google 地图中查看</string>
+    <string name="label_no_info">暂无信息</string>
+    <string name="vaccinations_available">可接种\n疫苗</string>
+    <string name="mon_to_fri">周一至周五</string>
+    <string name="sat_to_sun">周六至周日</string>
+    <string name="mon">周一</string>
+    <string name="tue">周二</string>
+    <string name="wed">周三</string>
+    <string name="thu">周四</string>
+    <string name="fri">周五</string>
+    <string name="sat">周六</string>
+    <string name="sun">周日</string>
+    <string name="unknown">未知</string>
+
+    <!--Call Script-->
+    <string name="call_script">话术</string>
+    <string name="call_title">📞 轻松打电话，\n我们帮你准备好</string>
+    <string name="call_subtitle">不再为语言发愁，通话内容我们来搞定</string>
+    <string name="call_example_1_title">📅 EX) 预约疫苗接种</string>
+    <string name="call_example_1_sub">我想给宝宝预约疫苗</string>
+    <string name="call_example_2_title">💉EX) 是否免费？</string>
+    <string name="call_example_2_sub">这个疫苗是免费的吗？</string>
+    <string name="call_example_3_title">🌡️ EX) 副作用咨询</string>
+    <string name="call_example_3_sub">接种后发烧正常吗？</string>
+    <string name="call_create_script">+\n生成通话内容</string>
+    <string name="call_script_title">通话脚本</string>
+    <string name="call_script_question">你想问诊所什么？</string>
+    <string name="call_script_label_question">问题</string>
+    <string name="call_script_suggestion_1">建议回答 1</string>
+    <string name="call_script_suggestion_2">建议回答 2</string>
+    <string name="call_script_suggestion_3">建议回答 3</string>
+    <string name="call_script_warning_title">请稍等！</string>
+    <string name="call_script_warning_text">听过录音了吗？\n不会保存哦。</string>
+    <string name="call_script_leave">离开</string>
+    <string name="call_script_back">返回脚本</string>
+    <string name="call_get_script">获取脚本</string>
+    <string name="call_input_hint">请输入您的问题</string>
+    <string name="call_script_language">中文</string>
+    <string name="call_script_korean">朝鲜语</string>
+
+
+
+
+    <string name="vaccine_hepb_1">乙肝疫苗（第1针）</string>
+    <string name="vaccine_hepb_2">乙肝疫苗（第2针）</string>
+    <string name="vaccine_hepb_3">乙肝疫苗（第3针）</string>
+    <string name="vaccine_bcg_1">卡介苗（结核）</string>
+    <string name="vaccine_dtap_1">白喉/破伤风/百日咳（第1针）</string>
+    <string name="vaccine_dtap_2">白喉/破伤风/百日咳（第2针）</string>
+    <string name="vaccine_dtap_3">白喉/破伤风/百日咳（第3针）</string>
+    <string name="vaccine_dtap_4">白喉/破伤风/百日咳（第4针）</string>
+    <string name="vaccine_dtap_5">白喉/破伤风/百日咳（第5针）</string>
+    <string name="vaccine_ipv_1">小儿麻痹疫苗（第1针）</string>
+    <string name="vaccine_ipv_2">小儿麻痹疫苗（第2针）</string>
+    <string name="vaccine_ipv_3">小儿麻痹疫苗（第3针）</string>
+    <string name="vaccine_ipv_4">小儿麻痹疫苗（第4针）</string>
+    <string name="vaccine_hib_1">Hib（第1针）</string>
+    <string name="vaccine_hib_2">Hib（第2针）</string>
+    <string name="vaccine_hib_3">Hib（第3针）</string>
+    <string name="vaccine_hib_4">Hib（第4针）</string>
+    <string name="vaccine_pcv_1">肺炎球菌（第1针）</string>
+    <string name="vaccine_pcv_2">肺炎球菌（第2针）</string>
+    <string name="vaccine_pcv_3">肺炎球菌（第3针）</string>
+    <string name="vaccine_pcv_4">肺炎球菌（第4针）</string>
+    <string name="vaccine_mmr_1">MMR（第1针）</string>
+    <string name="vaccine_mmr_2">MMR（第2针）</string>
+    <string name="vaccine_var_1">水痘</string>
+    <string name="vaccine_hepa_1">甲肝疫苗（第1针）</string>
+    <string name="vaccine_hepa_2">甲肝疫苗（第2针）</string>
+    <string name="vaccine_ijev_1">日本脑炎（第1针）</string>
+    <string name="vaccine_ijev_2">日本脑炎（第2针）</string>
+    <string name="vaccine_ijev_3">日本脑炎（第3针）</string>
+    <string name="vaccine_ijev_4">日本脑炎（第4针）</string>
+    <string name="vaccine_ijev_5">日本脑炎（第5针）</string>
+    <string name="vaccine_ljev_1">减毒活疫苗日本脑炎（第1针）</string>
+    <string name="vaccine_ljev_2">减毒活疫苗日本脑炎（第2针）</string>
+    <string name="vaccine_hpv_1">HPV（宫颈癌）</string>
+    <string name="vaccine_iiv">流感疫苗（每年）</string>
+
+</resources>

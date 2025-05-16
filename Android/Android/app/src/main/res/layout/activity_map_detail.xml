@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:src="@drawable/ic_arrow_back" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/roboto_regular"
+                android:text="Loading..."
+                android:textAlignment="center"
+                android:textColor="@color/Neutral0"
+                android:textSize="22sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="14dp"
+                android:src="@drawable/ic_arrow_back"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <!-- mmini map -->
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/map_container"
+            android:name="com.example.maro.view.SingleMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- center Name -->
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:padding="16dp"
+            android:text="Loading..."
+            android:textColor="@color/Neutral0"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="11dp">
+
+            <!-- ic Map -->
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="26dp"
+                android:src="@drawable/ic_location"
+                app:tint="@color/Neutral0" />
+
+            <!-- address -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/title_address"
+                android:textColor="@color/Neutral0"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="8dp"
+            android:text=""
+            android:textColor="@color/Neutral0"
+            android:textSize="14sp" />
+
+        <!-- google map Btn -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btnGoogleMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/Neutral98"
+            android:clickable="true"
+            app:cardCornerRadius="8dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appLogo"
+            app:rippleColor="@android:color/transparent"
+            app:strokeColor="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <!-- 구글 로고 -->
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_google_map" />
+
+                <!-- 텍스트 -->
+                <TextView
+                    android:id="@+id/tvGoogleLogin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/btn_google_map"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="11dp"
+            android:paddingTop="28dp">
+            <!-- 전화 아이콘 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_call"
+                app:tint="@color/Neutral0" />
+
+            <!-- 전화번호 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:fontFamily="@font/roboto_medium"
+                android:text="@string/title_call"
+                android:textColor="@color/Neutral0"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="8dp"
+            android:text=""
+            android:textColor="@color/Neutral0"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="11dp"
+            android:paddingTop="28dp">
+            <!-- 전화 아이콘 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_hours"
+                app:tint="@color/Neutral0" />
+
+            <!-- 운영 시간 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:ellipsize="none"
+                android:fontFamily="@font/roboto_medium"
+                android:inputType="textMultiLine"
+                android:maxLines="10"
+                android:singleLine="false"
+                android:text="@string/title_hours"
+                android:textColor="@color/Neutral0"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_hours"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:paddingHorizontal="16dp"
+            android:paddingTop="8dp"
+            android:text=""
+            android:textColor="@color/Neutral0"
+            android:textSize="14sp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="11dp"
+            android:paddingTop="28dp">
+            <!-- 전화 아이콘 -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_black_syringe"
+                app:tint="@color/Neutral0" />
+
+            <!-- 백신 라벨 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:fontFamily="@font/roboto_medium"
+                android:paddingBottom="8dp"
+                android:text="@string/title_available_vaccines"
+                android:textColor="@color/Neutral0"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <!--정보 없을 경우-->
+        <TextView
+            android:id="@+id/noInformation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/label_no_info"
+            android:textColor="@color/Neutral70"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <com.google.android.flexbox.FlexboxLayout
+            android:id="@+id/vaccine_chip_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:flexWrap="wrap"
+            app:justifyContent="flex_start">
+            <!-- Chip들이 동적으로 추가됨 -->
+        </com.google.android.flexbox.FlexboxLayout>
+
+    </LinearLayout>
+</ScrollView>

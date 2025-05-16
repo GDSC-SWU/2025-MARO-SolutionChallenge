@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">maro</string>
+    <string name="login_title">Xin chào, tôi là Maro.\nHãy cùng chăm sóc nhé!</string>
+    <string name="login_google_button">Đăng ký bằng Google</string>
+
+    <string name="onboarding_header">Thông tin</string>
+    <string name="onboarding_title">Nhập thông tin bé nhé!</string>
+    <string name="onboarding_description">🐣 Lịch tiêm sẽ được tạo từ thông tin bạn nhập.\nDữ liệu chỉ lưu trên thiết bị và sẽ xoá khi gỡ ứng dụng.</string>
+    <string name="onboarding_child_info_title">Thông tin của bé</string>
+    <string name="label_name">Tên</string>
+    <string name="label_birth">Ngày sinh</string>
+    <string name="label_gender">Giới tính</string>
+    <string name="gender_boy">Nam</string>
+    <string name="gender_girl">Nữ</string>
+    <string name="add_sibling">Thêm bé khác</string>
+    <string name="continue_">Tiếp tục</string>
+    <string name="hint_child_name">Nhập tên của bé</string>
+
+
+    <string name="main_track_progress">Theo dõi tiến độ tiêm chủng\ncủa bé!</string>
+    <string name="main_child_info">Thông tin bé</string>
+    <string name="child_gender_boy">nam</string>
+    <string name="child_gender_girl">nữ</string>
+    <string name="child_age_m">%1$d tháng tuổi</string>
+    <string name="child_age_y">%1$d tuổi</string>
+    <string name="main_upcoming_vaccines">Lịch tiêm sắp tới (%1$d)</string>
+    <string name="no_results">Không có kết quả</string>
+    <string name="see_all_vaccines">Xem tất cả</string>
+
+    <string name="banner_upcoming_vaccines">Có %1$d mũi tiêm sắp tới!</string>
+    <string name="child_birth_date_format">%1$s</string>
+    <string name="vaccination_timeline">Lịch tiêm chủng</string>
+
+    <string name="tab_all">TẤT CẢ</string>
+    <string name="tab_not_yet">CHƯA</string>
+    <string name="tab_coming_up">SẮP TỚI</string>
+    <string name="tab_completed">ĐÃ TIÊM</string>
+
+    <string name="sort_oldest">•Cũ nhất</string>
+    <string name="sort_latest">•Mới nhất</string>
+
+    <string name="label_date_range">%1$s ~ %2$s</string>
+    <string name="label_not_yet">Chưa</string>
+    <string name="label_coming_up">Sắp tới</string>
+    <string name="label_completed">Hoàn thành</string>
+    <string name="label_uploaded">Đã tải lên</string>
+    <string name="add_to_calendar">Thêm vào Lịch</string>
+    <string name="upload_certificate">Tải giấy xác nhận</string>
+    <string name="certificate_uploaded">Đã tải giấy</string>
+
+    <string name="question_how_do_you_feel">Sau khi tiêm, bé cảm thấy thế nào?</string>
+    <string name="emoji_good">Tốt 😊</string>
+    <string name="emoji_okay">Bình thường 🙂</string>
+    <string name="emoji_bad">Không tốt 😔</string>
+    <string name="hint_side_effects">Nếu có tác dụng phụ, hãy ghi chú lại.</string>
+    <string name="detail_edit_text">Viết về tác dụng phụ nếu có…</string>
+    <string name="btn_save">Lưu</string>
+    <string name="upload_failed">Tải lên giấy chứng nhận tiêm chủng thất bại. Vui lòng thử lại.</string>
+    <string name="upload_success">Tải lên giấy chứng nhận tiêm chủng thành công!</string>
+
+    <string name="tab_list">Danh sách</string>
+    <string name="tab_location">Vị trí</string>
+
+
+    <string name="congrats_title">Chúc mừng!</string>
+    <string name="congrats_message">Đăng ký thành viên của bạn đã hoàn tất.</string>
+    <string name="btn_go_home">Về trang chủ</string>
+    <string name="gallery_title">Thư viện ảnh</string>
+    <string name="image_description_hint">Vui lòng nhập mô tả cho hình ảnh.</string>
+
+    <string name="chatbot_title">Trợ lý</string>
+    <string name="chatbot_welcome_title">Chào mừng đến với Maro Chatbot!</string>
+    <string name="chatbot_welcome_description">Tôi giúp bạn giải đáp thắc mắc về tiêm chủng.</string>
+    <string name="chatbot_tip_1">• Hỏi về vaccine\n• Gửi ảnh tác dụng phụ\n• Dịch tài liệu y tế</string>
+    <string name="gallery">Gallery</string>
+    <string name="chat_edit_text">Nhập tin nhắn hoặc tải ảnh lên</string>
+
+    <string name="nearby_centers">Trung tâm tiêm chủng gần bạn</string>
+    <string name="title_address">Địa chỉ</string>
+    <string name="title_call">Gọi</string>
+    <string name="title_hours">Giờ làm việc</string>
+    <string name="title_available_vaccines">Các vắc xin hiện có</string>
+    <string name="btn_google_map">Mở bằng Google Map</string>
+    <string name="label_no_info">Không có thông tin</string>
+    <string name="vaccinations_available">Có thể\ntiêm chủng</string>
+    <string name="mon_to_fri">Thứ 2 đến Thứ 6</string>
+    <string name="sat_to_sun">Thứ 7 và Chủ nhật</string>
+    <string name="mon">Thứ 2</string>
+    <string name="tue">Thứ 3</string>
+    <string name="wed">Thứ 4</string>
+    <string name="thu">Thứ 5</string>
+    <string name="fri">Thứ 6</string>
+    <string name="sat">Thứ 7</string>
+    <string name="sun">Chủ nhật</string>
+    <string name="unknown">Không xác định</string>
+
+    <!-- Call Script-->
+    <string name="call_script">Kịch bản</string>
+    <string name="call_title">📞 Gọi điện dễ dàng,\nchúng tôi giúp bạn</string>
+    <string name="call_subtitle">Không lo ngôn ngữ, đã có kịch bản sẵn</string>
+    <string name="call_example_1_title">📅 EX) Đặt lịch tiêm</string>
+    <string name="call_example_1_sub">Tôi muốn đặt lịch tiêm cho bé</string>
+    <string name="call_example_2_title">💉EX) Kiểm tra miễn phí</string>
+    <string name="call_example_2_sub">Tiêm này có miễn phí không?</string>
+    <string name="call_example_3_title">🌡️ EX) Hỏi về phản ứng</string>
+    <string name="call_example_3_sub">Bé bị sốt sau tiêm có ổn không?</string>
+    <string name="call_create_script">+\nTạo kịch bản cuộc gọi</string>
+    <string name="call_script_title">Kịch bản gọi</string>
+    <string name="call_script_question">Bạn muốn hỏi gì phòng khám?</string>
+    <string name="call_script_label_question">Câu hỏi</string>
+    <string name="call_script_suggestion_1">Gợi ý 1</string>
+    <string name="call_script_suggestion_2">Gợi ý 2</string>
+    <string name="call_script_suggestion_3">Gợi ý 3</string>
+    <string name="call_script_warning_title">Chờ chút!</string>
+    <string name="call_script_warning_text">Bạn đã nghe lại chưa?\nChúng tôi không lưu lại đâu nhé.</string>
+    <string name="call_script_leave">Thoát</string>
+    <string name="call_script_back">Quay lại</string>
+    <string name="call_get_script">Lấy kịch bản</string>
+    <string name="call_input_hint">Nhập câu hỏi của bạn</string>
+    <string name="call_script_language">Tiếng Việt</string>
+    <string name="call_script_korean">Tiếng Hàn</string>
+
+
+
+    <string name="vaccine_hepb_1">Viêm gan B (mũi 1)</string>
+    <string name="vaccine_hepb_2">Viêm gan B (mũi 2)</string>
+    <string name="vaccine_hepb_3">Viêm gan B (mũi 3)</string>
+    <string name="vaccine_bcg_1">BCG (lao)</string>
+    <string name="vaccine_dtap_1">Bạch hầu, uốn ván, ho gà (mũi 1)</string>
+    <string name="vaccine_dtap_2">Bạch hầu, uốn ván, ho gà (mũi 2)</string>
+    <string name="vaccine_dtap_3">Bạch hầu, uốn ván, ho gà (mũi 3)</string>
+    <string name="vaccine_dtap_4">Bạch hầu, uốn ván, ho gà (mũi 4)</string>
+    <string name="vaccine_dtap_5">Bạch hầu, uốn ván, ho gà (mũi 5)</string>
+    <string name="vaccine_ipv_1">Bại liệt (mũi 1)</string>
+    <string name="vaccine_ipv_2">Bại liệt (mũi 2)</string>
+    <string name="vaccine_ipv_3">Bại liệt (mũi 3)</string>
+    <string name="vaccine_ipv_4">Bại liệt (mũi 4)</string>
+    <string name="vaccine_hib_1">Hib (mũi 1)</string>
+    <string name="vaccine_hib_2">Hib (mũi 2)</string>
+    <string name="vaccine_hib_3">Hib (mũi 3)</string>
+    <string name="vaccine_hib_4">Hib (mũi 4)</string>
+    <string name="vaccine_pcv_1">Phế cầu (mũi 1)</string>
+    <string name="vaccine_pcv_2">Phế cầu (mũi 2)</string>
+    <string name="vaccine_pcv_3">Phế cầu (mũi 3)</string>
+    <string name="vaccine_pcv_4">Phế cầu (mũi 4)</string>
+    <string name="vaccine_mmr_1">MMR (mũi 1)</string>
+    <string name="vaccine_mmr_2">MMR (mũi 2)</string>
+    <string name="vaccine_var_1">Thủy đậu</string>
+    <string name="vaccine_hepa_1">Viêm gan A (mũi 1)</string>
+    <string name="vaccine_hepa_2">Viêm gan A (mũi 2)</string>
+    <string name="vaccine_ijev_1">Viêm não Nhật Bản (mũi 1)</string>
+    <string name="vaccine_ijev_2">Viêm não Nhật Bản (mũi 2)</string>
+    <string name="vaccine_ijev_3">Viêm não Nhật Bản (mũi 3)</string>
+    <string name="vaccine_ijev_4">Viêm não Nhật Bản (mũi 4)</string>
+    <string name="vaccine_ijev_5">Viêm não Nhật Bản (mũi 5)</string>
+    <string name="vaccine_ljev_1">Vaccine sống giảm độc lực JE (mũi 1)</string>
+    <string name="vaccine_ljev_2">Vaccine sống giảm độc lực JE (mũi 2)</string>
+    <string name="vaccine_hpv_1">HPV (ung thư cổ tử cung)</string>
+    <string name="vaccine_iiv">Cúm (hàng năm)</string>
+
+</resources>

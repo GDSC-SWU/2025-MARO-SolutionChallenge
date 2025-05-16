@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/Neutral98"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeWidth="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="20dp">
+
+                <TextView
+                    android:id="@+id/text_child_title"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/onboarding_child_info_title"
+                    android:textColor="@color/Neutral0"
+                    android:textSize="24sp" />
+
+                <!-- delete Btn -->
+                <ImageButton
+                    android:id="@+id/button_remove_child"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="@color/Neutral98"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_remove_circle"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/label_name"
+                    android:textColor="@color/Neutral30"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edit_child_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/bg_rounded_edittext"
+                    android:fontFamily="@font/roboto_regular"
+                    android:hint="@string/hint_child_name"
+                    android:paddingHorizontal="12dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/label_birth"
+                    android:textColor="@color/Neutral30"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edit_child_dob"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/bg_rounded_edittext"
+                    android:fontFamily="@font/roboto_regular"
+                    android:hint="YYYY - MM - DD"
+                    android:inputType="number"
+                    android:maxLength="10"
+                    android:paddingHorizontal="12dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/label_gender"
+                    android:textColor="@color/Neutral30"
+                    android:textSize="16sp" />
+
+                <RadioGroup
+                    android:id="@+id/radio_group_gender"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="24dp"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/radio_boy"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/radiobutton_color"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/gender_boy"
+                        android:textSize="16sp" />
+
+                    <RadioButton
+                        android:id="@+id/radio_girl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="24dp"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/radiobutton_color"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="@string/gender_girl"
+                        android:textSize="16sp" />
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

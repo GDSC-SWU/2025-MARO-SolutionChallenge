@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">maro</string>
+    <string name="login_title">สวัสดี ฉันคือ Maro\nมาดูแลกันเถอะ!</string>
+    <string name="login_google_button">ลงทะเบียนด้วย Google</string>
+
+
+    <string name="onboarding_header">ข้อมูล</string>
+    <string name="onboarding_title">มาเริ่มต้นด้วยข้อมูลของลูกคุณกันเถอะ!</string>
+    <string name="onboarding_description">🐣 เราจะสร้างตารางวัคซีนเฉพาะบุคคลตามข้อมูลที่คุณให้ไว้\nข้อมูลส่วนตัวจะเก็บไว้ในอุปกรณ์เท่านั้น และจะถูกลบเมื่อคุณลบแอป</string>
+    <string name="onboarding_child_info_title">ข้อมูลของลูกน้อย</string>
+    <string name="label_name">ชื่อ</string>
+    <string name="label_birth">วันเกิด</string>
+    <string name="label_gender">เพศ</string>
+    <string name="gender_boy">ชาย</string>
+    <string name="gender_girl">หญิง</string>
+    <string name="add_sibling">เพิ่มลูก</string>
+    <string name="continue_">ดำเนินการต่อ</string>
+    <string name="hint_child_name">กรอกชื่อลูกน้อย</string>
+
+
+    <string name="main_track_progress">ติดตามความคืบหน้าการ\nฉีดวัคซีนของลูกคุณ!</string>
+    <string name="main_child_info">ข้อมูลลูก</string>
+    <string name="child_gender_boy">ชาย</string>
+    <string name="child_gender_girl">หญิง</string>
+    <string name="child_age_m">%1$d เดือน</string>
+    <string name="child_age_y">%1$d ปี</string>
+    <string name="main_upcoming_vaccines">วัคซีนที่กำลังจะมาถึง (%1$d)</string>
+    <string name="no_results">ไม่พบผลลัพธ์</string>
+    <string name="see_all_vaccines">ดูวัคซีนทั้งหมด</string>
+
+
+    <string name="banner_upcoming_vaccines">มีวัคซีน %1$d รายการที่กำลังจะมาถึง!</string>
+    <string name="child_birth_date_format">%1$s</string>
+    <string name="vaccination_timeline">ไทม์ไลน์วัคซีน</string>
+
+
+    <string name="tab_all">ทั้งหมด</string>
+    <string name="tab_not_yet">ยังไม่ถึง</string>
+    <string name="tab_coming_up">ใกล้ถึง</string>
+    <string name="tab_completed">เสร็จสิ้น</string>
+
+
+    <string name="sort_oldest">•เก่าที่สุด</string>
+    <string name="sort_latest">•ใหม่ล่าสุด</string>
+
+
+    <string name="label_date_range">%1$s ~ %2$s</string>
+    <string name="label_not_yet">ยังไม่ถึง!</string>
+    <string name="label_coming_up">กำลังจะมาถึง</string>
+    <string name="label_completed">เสร็จแล้ว</string>
+    <string name="label_uploaded">อัปโหลดแล้ว</string>
+    <string name="add_to_calendar">เพิ่มลงในปฏิทิน</string>
+    <string name="upload_certificate">อัปโหลดใบรับรอง</string>
+    <string name="certificate_uploaded">อัปโหลดใบรับรองแล้ว</string>
+
+
+    <string name="question_how_do_you_feel">คุณรู้สึกอย่างไรหลังฉีดวัคซีน?</string>
+    <string name="emoji_good">ดี 😊</string>
+    <string name="emoji_okay">พอใช้ 🙂</string>
+    <string name="emoji_bad">ไม่ดี 😔</string>
+    <string name="hint_side_effects">หากมีอาการข้างเคียง โปรดเขียนไว้ที่นี่</string>
+    <string name="detail_edit_text">เขียนอาการข้างเคียงที่นี่…</string>
+    <string name="btn_save">บันทึก</string>
+    <string name="upload_failed">การอัปโหลดใบรับรองวัคซีนไม่สำเร็จ กรุณาลองใหม่อีกครั้ง</string>
+    <string name="upload_success">อัปโหลดใบรับรองการฉีดวัคซีนเรียบร้อยแล้ว!</string>
+
+
+    <string name="tab_list">รายการ</string>
+    <string name="tab_location">ตำแหน่ง</string>
+
+
+    <string name="congrats_title">ยินดีด้วย!</string>
+    <string name="congrats_message">คุณสมัครสมาชิกเรียบร้อยแล้ว</string>
+    <string name="btn_go_home">ไปหน้าหลัก</string>
+    <string name="gallery_title">แกลเลอรี่</string>
+
+
+
+    <string name="chatbot_title">แชทบอท</string>
+    <string name="chatbot_welcome_title">ยินดีต้อนรับสู่ Maro แชทบอท!</string>
+    <string name="chatbot_welcome_description">ฉันพร้อมช่วยเหลือเกี่ยวกับวัคซีน</string>
+    <string name="chatbot_tip_1">• ถามเกี่ยวกับวัคซีน\n• ส่งภาพอาการข้างเคียง\n• แปลเอกสารทางการแพทย์</string>
+    <string name="gallery">Gallery</string>
+    <string name="chat_edit_text">พิมพ์ข้อความหรืออัปโหลดภาพ</string>
+    <string name="image_description_hint">กรุณาใส่คำอธิบายรูปภาพ</string>
+
+
+    <string name="nearby_centers">ศูนย์วัคซีนใกล้คุณ</string>
+    <string name="title_address">ที่อยู่</string>
+    <string name="title_call">โทร</string>
+    <string name="title_hours">เวลาทำการ</string>
+    <string name="title_available_vaccines">วัคซีนที่มีให้บริการ</string>
+    <string name="btn_google_map">เปิดใน Google แผนที่</string>
+    <string name="label_no_info">ไม่มีข้อมูล</string>
+    <string name="vaccinations_available">วัคซีน\nที่สามารถฉีดได้</string>
+    <string name="mon_to_fri">จันทร์–ศุกร์</string>
+    <string name="sat_to_sun">เสาร์–อาทิตย์</string>
+    <string name="mon">จ.</string>
+    <string name="tue">อ.</string>
+    <string name="wed">พ.</string>
+    <string name="thu">พฤ.</string>
+    <string name="fri">ศ.</string>
+    <string name="sat">ส.</string>
+    <string name="sun">อา.</string>
+    <string name="unknown">ไม่ทราบ</string>
+
+    <!--Call Script-->
+    <string name="call_script">สคริปต์</string>
+    <string name="call_title">📞 โทรได้มั่นใจ\nเราช่วยคุณพูด</string>
+    <string name="call_subtitle">ไม่ต้องเครียดเรื่องภาษา เราเตรียมให้</string>
+    <string name="call_example_1_title">📅 EX) จองฉีดวัคซีน</string>
+    <string name="call_example_1_sub">ฉันอยากนัดฉีดวัคซีนให้ลูก</string>
+    <string name="call_example_2_title">💉EX) วัคซีนฟรีไหม?</string>
+    <string name="call_example_2_sub">ต้องจ่ายเงินไหม?</string>
+    <string name="call_example_3_title">🌡️ EX) ถามเรื่องผลข้างเคียง</string>
+    <string name="call_example_3_sub">มีไข้หลังฉีด ปกติไหม?</string>
+    <string name="call_create_script">+\nสร้างสคริปต์โทร</string>
+    <string name="call_script_title">สคริปต์โทร</string>
+    <string name="call_script_question">คุณอยากถามคลินิกว่าอะไร?</string>
+    <string name="call_script_label_question">คำถาม</string>
+    <string name="call_script_suggestion_1">คำตอบแนะนำ 1</string>
+    <string name="call_script_suggestion_2">คำตอบแนะนำ 2</string>
+    <string name="call_script_suggestion_3">คำตอบแนะนำ 3</string>
+    <string name="call_script_warning_title">รอสักครู่!</string>
+    <string name="call_script_warning_text">คุณฟังเสียงแล้วหรือยัง?\nระบบจะไม่บันทึกไว้</string>
+    <string name="call_script_leave">ออก</string>
+    <string name="call_script_back">กลับสคริปต์</string>
+    <string name="call_get_script">ดึงสคริปต์</string>
+    <string name="call_input_hint">พิมพ์คำถามของคุณที่นี่</string>
+    <string name="call_script_language">ภาษาไทย</string>
+    <string name="call_script_korean">ภาษาเกาหลี</string>
+
+
+
+    <string name="vaccine_hepb_1">ไวรัสตับอักเสบบี (เข็มที่ 1)</string>
+    <string name="vaccine_hepb_2">ไวรัสตับอักเสบบี (เข็มที่ 2)</string>
+    <string name="vaccine_hepb_3">ไวรัสตับอักเสบบี (เข็มที่ 3)</string>
+    <string name="vaccine_bcg_1">บีซีจี (วัณโรค)</string>
+    <string name="vaccine_dtap_1">คอตีบ/บาดทะยัก/ไอกรน (เข็มที่ 1)</string>
+    <string name="vaccine_dtap_2">คอตีบ/บาดทะยัก/ไอกรน (เข็มที่ 2)</string>
+    <string name="vaccine_dtap_3">คอตีบ/บาดทะยัก/ไอกรน (เข็มที่ 3)</string>
+    <string name="vaccine_dtap_4">คอตีบ/บาดทะยัก/ไอกรน (เข็มที่ 4)</string>
+    <string name="vaccine_dtap_5">คอตีบ/บาดทะยัก/ไอกรน (เข็มที่ 5)</string>
+    <string name="vaccine_ipv_1">โปลิโอ (เข็มที่ 1)</string>
+    <string name="vaccine_ipv_2">โปลิโอ (เข็มที่ 2)</string>
+    <string name="vaccine_ipv_3">โปลิโอ (เข็มที่ 3)</string>
+    <string name="vaccine_ipv_4">โปลิโอ (เข็มที่ 4)</string>
+    <string name="vaccine_hib_1">ฮิบ (เข็มที่ 1)</string>
+    <string name="vaccine_hib_2">ฮิบ (เข็มที่ 2)</string>
+    <string name="vaccine_hib_3">ฮิบ (เข็มที่ 3)</string>
+    <string name="vaccine_hib_4">ฮิบ (เข็มที่ 4)</string>
+    <string name="vaccine_pcv_1">นิวโมคอคคัส (เข็มที่ 1)</string>
+    <string name="vaccine_pcv_2">นิวโมคอคคัส (เข็มที่ 2)</string>
+    <string name="vaccine_pcv_3">นิวโมคอคคัส (เข็มที่ 3)</string>
+    <string name="vaccine_pcv_4">นิวโมคอคคัส (เข็มที่ 4)</string>
+    <string name="vaccine_mmr_1">MMR (เข็มที่ 1)</string>
+    <string name="vaccine_mmr_2">MMR (เข็มที่ 2)</string>
+    <string name="vaccine_var_1">อีสุกอีใส</string>
+    <string name="vaccine_hepa_1">ไวรัสตับอักเสบเอ (เข็มที่ 1)</string>
+    <string name="vaccine_hepa_2">ไวรัสตับอักเสบเอ (เข็มที่ 2)</string>
+    <string name="vaccine_ijev_1">ไข้สมองอักเสบเจอี (เข็มที่ 1)</string>
+    <string name="vaccine_ijev_2">ไข้สมองอักเสบเจอี (เข็มที่ 2)</string>
+    <string name="vaccine_ijev_3">ไข้สมองอักเสบเจอี (เข็มที่ 3)</string>
+    <string name="vaccine_ijev_4">ไข้สมองอักเสบเจอี (เข็มที่ 4)</string>
+    <string name="vaccine_ijev_5">ไข้สมองอักเสบเจอี (เข็มที่ 5)</string>
+    <string name="vaccine_ljev_1">วัคซีน JE ชนิดเชื้อเป็น (เข็มที่ 1)</string>
+    <string name="vaccine_ljev_2">วัคซีน JE ชนิดเชื้อเป็น (เข็มที่ 2)</string>
+    <string name="vaccine_hpv_1">HPV (มะเร็งปากมดลูก)</string>
+    <string name="vaccine_iiv">ไข้หวัดใหญ่ (ประจำปี)</string>
+</resources>

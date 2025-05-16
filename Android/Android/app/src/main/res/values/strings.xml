@@ -1,0 +1,167 @@
+<resources>
+    <string name="app_name">maro</string>
+
+    <string name="login_title">Hello, I’m Maro.\nLet’s take care together!</string>
+    <string name="login_google_button">Sign up with Google</string>
+
+
+    <string name="onboarding_header">Information</string>
+    <string name="onboarding_title">Let’s get started with\nyour child’s info!</string>
+    <string name="onboarding_description">🐣 We’ll create a personalized vaccination schedule based on this.\nYour data stays on your device and is deleted when the app is uninstalled.</string>
+    <string name="onboarding_child_info_title">Child’s info</string>
+    <string name="label_name">Name</string>
+    <string name="label_birth">Date of birth</string>
+    <string name="label_gender">Gender</string>
+    <string name="gender_boy">Boy</string>
+    <string name="gender_girl">Girl</string>
+    <string name="add_sibling">Add sibling</string>
+    <string name="continue_">Continue</string>
+    <string name="hint_child_name">Enter name</string>
+
+
+    <string name="main_track_progress">Track your child’s\nvaccination progress!</string>
+    <string name="main_child_info">Child’s Information</string>
+    <string name="child_gender_boy">boy</string>
+    <string name="child_gender_girl">girl</string>
+    <string name="child_age_m">%1$d months old</string>
+    <string name="child_age_y">%1$d years old</string>
+    <string name="main_upcoming_vaccines">Upcoming Vaccines (%1$d)</string>
+    <string name="no_results">No results available</string>
+    <string name="see_all_vaccines">See All Vaccines</string>
+
+
+    <string name="banner_upcoming_vaccines">There are %1$d upcoming vaccines!</string>
+    <string name="child_birth_date_format">%1$s</string>
+    <string name="vaccination_timeline">Vaccination Timeline</string>
+
+    <string name="tab_all">ALL</string>
+    <string name="tab_not_yet">NOT YET</string>
+    <string name="tab_coming_up">COMING UP</string>
+    <string name="tab_completed">COMPLETED</string>
+
+    <string name="sort_oldest">•Oldest</string>
+    <string name="sort_latest">•Latest</string>
+
+    <string name="label_date_range">%1$s ~ %2$s</string>
+    <string name="label_not_yet">Not yet!</string>
+    <string name="label_coming_up">Coming up</string>
+    <string name="label_completed">Completed</string>
+    <string name="label_uploaded">Uploaded</string>
+    <string name="add_to_calendar">Add to Calendar</string>
+    <string name="upload_certificate">Upload Certificate</string>
+    <string name="certificate_uploaded">Certificate uploaded</string>
+
+    <string name="question_how_do_you_feel">How did you feel after the vaccination?</string>
+    <string name="emoji_good">Good 😊</string>
+    <string name="emoji_okay">Okay 🙂</string>
+    <string name="emoji_bad">Bad 😔</string>
+    <string name="hint_side_effects">If you experienced any side effects, please leave a note.</string>
+    <string name="detail_edit_text">Write about any side effects here…</string>
+    <string name="btn_save">Save</string>
+    <string name="upload_failed">Certificate upload failed! Please try again.</string>
+    <string name="upload_success">Certificate upload complete!</string>
+
+
+    <string name="tab_list">List</string>
+    <string name="tab_location">Location</string>
+    <string name="call_script">Call Script</string>
+
+
+    <string name="congrats_title">Congratulations!</string>
+    <string name="congrats_message">Your membership registration\nhas been completed.</string>
+    <string name="btn_go_home">Go to home</string>
+
+
+    <string name="chatbot_title">Chatbot</string>
+    <string name="chatbot_welcome_title">Welcome to Maro Chatbot!</string>
+    <string name="chatbot_welcome_description">I’m here to help with vaccination-related concerns.</string>
+    <string name="chatbot_tip_1">• Ask anything about vaccines\n• Send photos of side effects\n• Translate medical documents</string>
+    <string name="gallery">Gallery</string>
+    <string name="chat_edit_text">Type a message or upload a photo</string>
+    <string name="gallery_title">Gallery</string>
+    <string name="image_description_hint">Please enter a description for the image.</string>
+
+
+    <string name="nearby_centers">Nearby Vaccination Centers</string>
+    <string name="title_address">Address</string>
+    <string name="title_call">Call</string>
+    <string name="title_hours">Hours</string>
+    <string name="title_available_vaccines">Available Vaccines</string>
+    <string name="btn_google_map">Go to Google Map</string>
+    <string name="label_no_info">No information</string>
+    <string name="vaccinations_available">Vaccinations\nAvailable</string>
+    <string name="mon_to_fri">Mon–Fri</string>
+    <string name="sat_to_sun">Sat–Sun</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="unknown">Unknown</string>
+
+    <string name="call_title">We’ll help you speak with\nconfidence on the phone!</string>
+    <string name="call_subtitle">📞 No more language stress – we prepare your call</string>
+    <string name="call_example_1_title">📅 EX) Make a vaccination appointment</string>
+    <string name="call_example_1_sub">I\'d like to make a vaccination appointment for my baby.</string>
+    <string name="call_example_2_title">💉EX) Check if the vaccination is free or paid</string>
+    <string name="call_example_2_sub">Is this vaccination free or do I need to pay?</string>
+    <string name="call_example_3_title">🌡️ EX) Ask about side effects after vaccination</string>
+    <string name="call_example_3_sub">Is a fever after vaccination okay?</string>
+    <string name="call_create_script">+\nCreate your call script</string>
+    <string name="call_script_title">Call Script</string>
+    <string name="call_script_question">What would you like to ask the clinic?</string>
+    <string name="call_script_label_question">Question</string>
+    <string name="call_script_suggestion_1">Suggested answer #1</string>
+    <string name="call_script_suggestion_2">Suggested answer #2</string>
+    <string name="call_script_suggestion_3">Suggested answer #3</string>
+    <string name="call_script_warning_title">Hold on!</string>
+    <string name="call_script_warning_text">Checked the audio before leaving?\nWe don’t save it for later.</string>
+    <string name="call_script_leave">Leave</string>
+    <string name="call_script_back">Back to Script</string>
+    <string name="call_get_script">Get script</string>
+    <string name="call_input_hint">Type your question here.</string>
+    <string name="call_script_language">English</string>
+    <string name="call_script_korean">Korean</string>
+
+
+
+
+    <string name="vaccine_hepb_1">HepB (1st dose)</string>
+    <string name="vaccine_hepb_2">HepB (2nd dose)</string>
+    <string name="vaccine_hepb_3">HepB (3rd dose)</string>
+    <string name="vaccine_bcg_1">BCG (Tuberculosis)</string>
+    <string name="vaccine_dtap_1">DTaP (1st dose)</string>
+    <string name="vaccine_dtap_2">DTaP (2nd dose)</string>
+    <string name="vaccine_dtap_3">DTaP (3rd dose)</string>
+    <string name="vaccine_dtap_4">DTaP (4th dose)</string>
+    <string name="vaccine_dtap_5">DTaP (5th dose)</string>
+    <string name="vaccine_ipv_1">IPV (1st dose)</string>
+    <string name="vaccine_ipv_2">IPV (2nd dose)</string>
+    <string name="vaccine_ipv_3">IPV (3rd dose)</string>
+    <string name="vaccine_ipv_4">IPV (4th dose)</string>
+    <string name="vaccine_hib_1">Hib (1st dose)</string>
+    <string name="vaccine_hib_2">Hib (2nd dose)</string>
+    <string name="vaccine_hib_3">Hib (3rd dose)</string>
+    <string name="vaccine_hib_4">Hib (4th dose)</string>
+    <string name="vaccine_pcv_1">PCV (1st dose)</string>
+    <string name="vaccine_pcv_2">PCV (2nd dose)</string>
+    <string name="vaccine_pcv_3">PCV (3rd dose)</string>
+    <string name="vaccine_pcv_4">PCV (4th dose)</string>
+    <string name="vaccine_mmr_1">MMR (1st dose)</string>
+    <string name="vaccine_mmr_2">MMR (2nd dose)</string>
+    <string name="vaccine_var_1">VAR (Chickenpox)</string>
+    <string name="vaccine_hepa_1">HepA (1st dose)</string>
+    <string name="vaccine_hepa_2">HepA (2nd dose)</string>
+    <string name="vaccine_ijev_1">Japanese Encephalitis (1st dose)</string>
+    <string name="vaccine_ijev_2">Japanese Encephalitis (2nd dose)</string>
+    <string name="vaccine_ijev_3">Japanese Encephalitis (3rd dose)</string>
+    <string name="vaccine_ijev_4">Japanese Encephalitis (4th dose)</string>
+    <string name="vaccine_ijev_5">Japanese Encephalitis (5th dose)</string>
+    <string name="vaccine_ljev_1">Live JE Vaccine (1st dose)</string>
+    <string name="vaccine_ljev_2">Live JE Vaccine (2nd dose)</string>
+    <string name="vaccine_hpv_1">HPV (Cervical Cancer)</string>
+    <string name="vaccine_iiv">Influenza (Annual)</string>
+
+</resources>

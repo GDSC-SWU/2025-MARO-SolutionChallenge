@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".view.OnboardingChildActivity">
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/onboarding_header"
+            android:textColor="@color/Neutral0"
+            android:textSize="22sp" />
+
+        <!-- Progress bar substitute -->
+        <LinearLayout
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="18dp"
+            android:background="@color/Main01"
+            android:orientation="horizontal" />
+
+        <!-- Main Question -->
+        <TextView
+            android:id="@+id/language_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/onboarding_title"
+            android:textColor="@color/Neutral0"
+            android:textSize="28sp" />
+
+        <!-- Subtext -->
+        <TextView
+            android:id="@+id/language_subtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/roboto_regular"
+            android:text="@string/onboarding_description"
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+
+        <!-- Card Item Area -->
+        <LinearLayout
+            android:id="@+id/container_child_cards"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <include layout="@layout/item_child_info" />
+        </LinearLayout>
+
+        <!-- Add sibling Btn -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_add_sibling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="22dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/add_sibling"
+            android:textSize="15sp"
+            app:backgroundTint="@color/Main01"
+            app:cornerRadius="100dp"
+            app:icon="@drawable/ic_plus"
+            app:iconPadding="3dp" />
+
+        <!-- Continue Button -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/btnContinue"
+            android:layout_width="380dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="70dp"
+            android:backgroundTint="@color/Neutral80"
+            android:clickable="true"
+            app:cardCornerRadius="8dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                android:padding="12dp">
+
+                <!-- text -->
+                <TextView
+                    android:id="@+id/textContinue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/continue_"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+</ScrollView>

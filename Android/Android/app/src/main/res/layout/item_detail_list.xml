@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="0dp"
+    app:rippleColor="@android:color/transparent"
+    app:strokeColor="@color/Neutral90"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- header -->
+        <LinearLayout
+            android:id="@+id/layout_status_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/comingUp"
+            android:gravity="center_vertical"
+            android:padding="16dp"> <!-- 동적으로 변경 -->
+
+            <TextView
+                android:id="@+id/tv_date_range"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="2025 - 04 - 10 ~ 2025 - 04 - 30"
+                android:textColor="@android:color/black"
+                android:textSize="13sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="12dp"
+                android:layout_marginHorizontal="12dp"
+                android:alpha="0.2"
+                android:background="@color/Neutral0" />
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_semibold"
+                android:text="@string/label_coming_up"
+                android:textColor="@color/Neutral0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- title -->
+            <TextView
+                android:id="@+id/tv_vaccine_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_regular"
+                android:padding="16dp"
+                android:text="Rotavirus (3rd dose)"
+                android:textColor="@color/Neutral0"
+                android:textSize="19sp" />
+
+            <!--Btn area-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingHorizontal="16dp">
+
+                <!-- Add to Calendar  -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/btn_googleCalender"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="0dp"
+                    app:strokeColor="@color/Neutral90"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="12dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:contentDescription="Calendar Icon"
+                            android:src="@drawable/ic_google_calendar" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="@string/add_to_calendar"
+                            android:textColor="@color/Neutral25"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <!-- Upload Certificate  -->
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/btn_certificate"
+                    android:layout_width="0dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    app:cardBackgroundColor="@color/white"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="0dp"
+                    app:strokeColor="@color/Neutral90"
+                    app:strokeWidth="1dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:paddingHorizontal="12dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_file_upload" />
+
+                        <TextView
+                            android:id="@+id/tv_upload_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="8dp"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="@string/upload_certificate"
+                            android:textColor="@color/Neutral25"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- completed status -->
+        <LinearLayout
+            android:id="@+id/layout_completed_extra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/roboto_regular"
+                    android:text="@string/question_how_do_you_feel"
+                    android:textColor="@color/Neutral30"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:orientation="vertical">
+
+                    <!-- save Btn-->
+                    <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/btn_save"
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="3dp"
+                        app:cardElevation="0dp"
+                        app:strokeColor="@color/Neutral60">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:fontFamily="@font/roboto_medium"
+                            android:text="@string/btn_save"
+                            android:textColor="@color/Neutral60"
+                            android:textSize="11sp" />
+                    </com.google.android.material.card.MaterialCardView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--feel btn-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btn_good"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="Calendar Icon"
+                    android:padding="1dp"
+                    android:src="@drawable/profile_ai" />
+
+                <TextView
+                    android:id="@+id/text_good"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/emoji_good"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/btn_okay"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="Calendar Icon"
+                    android:padding="1dp"
+                    android:src="@drawable/profile_ai" />
+
+                <TextView
+                    android:id="@+id/text_okay"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/emoji_okay"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/btn_bad"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:contentDescription="Calendar Icon"
+                    android:padding="1dp"
+                    android:src="@drawable/profile_ai" />
+
+                <TextView
+                    android:id="@+id/text_bad"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/roboto_medium"
+                    android:text="@string/emoji_bad"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/roboto_regular"
+                android:text="@string/hint_side_effects"
+                android:textColor="@color/Neutral30"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/et_side_effect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:background="@drawable/bg_rounded_edittext"
+                android:fontFamily="@font/roboto_regular"
+                android:hint="@string/detail_edit_text"
+                android:padding="10dp"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

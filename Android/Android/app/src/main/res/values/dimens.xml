@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chip_margin_horizontal_3dp">3dp</dimen>
+    <dimen name="chip_margin_vertical_1dp">1dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="max_chip_width">120dp</dimen>
+</resources>
