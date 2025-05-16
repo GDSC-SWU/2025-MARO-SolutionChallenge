@@ -195,9 +195,9 @@ Moreover, the AI is **ethically designed not to perform direct medical diagnosis
 
 ## 🎥 Demo Video
 
-> 데모 영상 링크 또는 YouTube 삽입 예정
+https://youtu.be/C_7E7TXHkB0
 
-
+[![Video Label](https://github.com/user-attachments/assets/dbdf3245-6fb2-4470-93fb-691c5451a893)](https://youtu.be/C_7E7TXHkB0)
 ---
 
 
