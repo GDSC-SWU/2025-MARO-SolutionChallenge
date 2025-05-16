@@ -1,0 +1,23 @@
+publicdata:
+  service:
+    key: Lmc/dnHSN+hbBSeIlbgfZ6Pp6Tvf7LXfNOi+uKvQQt6l4KIKsyM4/dDg1Qp3rBtDMGiYzvJn+1pWKDoVp3Q3Q==
+fastapi:
+  model:
+    url: http://localhost:8000
+server:
+  address: 0.0.0.0
+  port: 8081
+google:
+    api:
+      key: AIzaSyDS2G7j9kFpcvdi0IiwRWTGGx5gcC3CYDw
+translate:
+    api:
+      key: AIzaSyDfH8g6rPMC3fP7xz4LViYQDPVgsTNLZQY
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+kakao:
+  api:
+    key: 69a57682bbf320652e587ecb070d7da2
