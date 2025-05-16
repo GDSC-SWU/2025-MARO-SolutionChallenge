@@ -195,8 +195,6 @@ Moreover, the AI is **ethically designed not to perform direct medical diagnosis
 
 ## 🎥 Demo Video
 
-https://youtu.be/C_7E7TXHkB0
-
 [![Video Label](https://github.com/user-attachments/assets/dbdf3245-6fb2-4470-93fb-691c5451a893)](https://youtu.be/C_7E7TXHkB0)
 ---
 
